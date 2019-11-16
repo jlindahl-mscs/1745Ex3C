@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>How to Help</title>
+    <title>Contact Us</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -10,6 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+
     <div class="container-fluid">
         <ul class="nav nav-pills bg-dark text-white">
             <li class="nav-item">
@@ -69,31 +70,112 @@
             </li>
         </ul>
 
-
         <div class="jumbotron" style="background-image: url(images/earthheaderlogo.PNG); background-repeat: no-repeat; background-size: 100% 100%;
       padding-top: 20%; padding-bottom: 20%; padding-left: 5%; padding-right: 5%;">
+
         </div>
         <div class="row">
-            <div class="col-sm-2">
-                <h4>Links</h4>
-                <li>List Item</li>
-                <li>List Item</li>
-                <li>List Item</li>
-                <li>List Item</li>
-                <li>List Item</li>
-            </div>
+            <div class="container">
+                <h2>We love hearing from our visitors!</h2>
+                <p>Fill out the form below to ask questions or leave feedback. </p>
+                <form action="/action_page.php" class="was-validated">
+                    <div class="form-group">
+                        <label for="uname">Name:</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Your Name" name="uname" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
 
-            <div class="col-sm-10">
-                <h1>How You Can Help</h1>
-                <h4>text here</h4>
-                <p>
-                    There are many ways in which you can help our planet thrive. Here are some ways. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
-                </p>
+                    <div class="form-group">
+                        <label for="uname">Email:</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Your Email Address" name="uname" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+
+                    <div class="form-control-plaintext">
+                        <label for="uname">Message:</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Your message here." name="uname">
+                    </div>
+
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> I would like a response.
+                        </label>
+                    </div>
+                    <div class="container">
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-dark text-white" data-toggle="modal" data-target="#myModal">
+                            Submit
+                        </button>
+
+                        <!-- The Modal -->
+                        <div class="modal fade" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Thank you for your message!</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        We will get back to you shortly!
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
             </div>
         </div>
+    </div>
+    <br />
+    <br />
+    <div class="container">
+        <h2>Earth Administrator Contacts</h2>
+        <br />
+        <br />
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Joslyn</td>
+                    <td>Lindahl</td>
+                    <td>joslyn.lindahl@my.southeastmn.edu</td>
+                </tr>
+                <tr>
+                    <td>David</td>
+                    <td>Burd</td>
+                    <td>lildicky@email.com</td>
+                </tr>
+                <tr>
+                    <td>Leonardo</td>
+                    <td>DiCaprio</td>
+                    <td>leo@email.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
 </body>
+
 <footer>EARTH 2019&nbsp;</footer>
+
 </html>
